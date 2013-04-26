@@ -1,0 +1,2 @@
+sbin/xchroot usr/sbin
+xchroot.conf etc/

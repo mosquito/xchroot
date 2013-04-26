@@ -1,0 +1,13 @@
+Source: xchroot
+Section: utils
+Priority: optional
+Maintainer: Dmitry Orlov <me@mosquito.su>
+Uploaders: Dmitry Orlov <me@mosquito.su>
+Build-Depends: debhelper (>= 7.1), cdbs
+Standards-Version: 3.8.0
+
+Package: xchroot
+Architecture: any
+Depends: squashfs-tools, aufs-tools, lsof, coreutils
+Description: Make extended xhroots
+

@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+# be verbose
+export DH_VERBOSE=1
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+# don't fix perm, we call postinst
+DEB_FIXPERMS_EXCLUDE_ALL := debian/
+# don't check shlibs
+DEB_DH_SHLIBDEPS_ARGS := --ignore-missing-info
