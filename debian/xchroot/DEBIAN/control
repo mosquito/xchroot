@@ -1,9 +1,0 @@
-Package: xchroot
-Version: 0.1
-Architecture: amd64
-Maintainer: Dmitry Orlov <me@mosquito.su>
-Installed-Size: 37
-Depends: squashfs-tools, aufs-tools, lsof, coreutils
-Section: utils
-Priority: optional
-Description: Make extended xhroots
